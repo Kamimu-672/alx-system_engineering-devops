@@ -1,0 +1,65 @@
+Web Stack Debugging Project
+
+Overview:
+
+In the fast-paced world of web stacks, our systems hit a speed bump on March 9, 2024, between 10:15 AM and 12:45 PM (UTC). The authentication service took an unexpected siesta, causing login issues for about 30% of users.
+
+Root Cause:
+
+The culprit? A rowdy database connection pool throwing a party without RSVPs. Too many guests overwhelmed the system, leading to connection pool exhaustion.
+
+Timeline:
+
+10:15 AM:
+Monitoring alarms rang, signaling abnormal activity. The investigation kicked off.
+
+10:20 AM:
+Suspecting a DDoS attack, the team activated defenses. Spoiler: It was a database disco, not a cyber siege.
+
+10:30 AM:
+DDoS measures proved futile. Time to inspect the castle – the authentication service itself.
+
+11:00 AM:
+A detour into the code maze led to unnecessary rollbacks, introducing more chaos.
+
+11:30 AM:
+Escalation time! Database team called in. Diagnosis: connection pool misconfiguration causing havoc.
+
+12:00 PM:
+Database detectives cracked the case - a rogue connection pool. Shutdown initiated.
+
+12:30 PM:
+Misconfiguration fixed, and VIP access to the authentication service restored.
+
+12:45 PM:
+Web Stack tranquility restored. Users celebrated as passwords regained their memory.
+
+Root Cause and Resolution:
+
+Root Cause:
+A misconfigured database connection pool threw a rave, creating a surge in connections, disrupting service.
+
+Resolution:
+The misconfiguration was corrected, and the connection pool was tamed, preventing future unauthorized parties.
+
+Corrective and Preventative Measures:
+
+Things to Improve/Fix:
+
+Configuration Management: Strengthen processes to avoid misconfigurations, the real villains here.
+
+Monitoring Enhancement: Implement a vigilant monitoring system for the connection pool to prevent unauthorized access.
+
+Incident Response Training: Train the team for precise actions, avoiding unnecessary rollbacks.
+
+Tasks to Address the Issue:
+
+Database Connection Pool Review: Thoroughly review and scrutinize all database connection pool settings.
+
+Incident Response Drill: Conduct regular drills to prepare the team for unforeseen challenges.
+
+Documentation Update: Enhance documentation with best practices to maintain Web Stack integrity.
+
+In Conclusion:
+
+The Web Stack had its rollercoaster moment, but fear not! Glitches were fixed, lessons learned, and the journey continues. Stay tuned for the next chapter in the Chronicles of Web Stack!
